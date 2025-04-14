@@ -1,0 +1,14 @@
+# Ignore temporary files and directories
+*/node_modules/
+Archive/
+.bin/
+.mime-*
+*.swp
+*.log
+# Environment variables
+.env
+.env.local
+.env.*
+**/.env
+*/.env
+.env
