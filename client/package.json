@@ -1,0 +1,45 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "install": "npm install @emotion/react @emotion/styled @googlemaps/js-api-loader @mui/icons-material @mui/material @mui/x-data-grid @mui/x-date-pickers @react-oauth/google axios dayjs formik lodash react react-dom react-google-autocomplete react-router-dom react-toastify yup",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@googlemaps/js-api-loader": "^1.16.8",
+    "@mui/icons-material": "^6.4.9",
+    "@mui/material": "^6.4.9",
+    "@mui/x-data-grid": "^7.28.1",
+    "@mui/x-date-pickers": "^7.28.0",
+    "@react-oauth/google": "^0.12.1",
+    "axios": "^1.8.4",
+    "dayjs": "^1.11.13",
+    "formik": "^2.4.6",
+    "lodash": "^4.17.21",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-google-autocomplete": "^2.7.4",
+    "react-router-dom": "^6.30.0",
+    "react-toastify": "^11.0.5",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}
